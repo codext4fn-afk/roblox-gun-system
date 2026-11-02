@@ -4,3 +4,6 @@
 sourcemap.json
 Packages/
 audit/
+globalTypes.d.luau
+*.rbxl.lock
+*.rbxlx.lock

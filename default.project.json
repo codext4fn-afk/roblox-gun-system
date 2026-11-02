@@ -1,0 +1,92 @@
+{
+  "name": "WeaponSystem",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "WeaponSystem": {
+        "$path": "src/shared",
+        "Props": {
+          "$path": "assets/Props"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "WeaponServer": {
+        "$path": "src/server"
+      }
+    },
+    "ServerStorage": {
+      "WeaponEditor": {
+        "$path": "src/editor"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "WeaponClient": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "StarterGui": {
+      "GunHUD": {
+        "$path": "assets/GunHUD.model.json"
+      }
+    },
+    "StarterPack": {
+      "$path": "assets/Weapons"
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Size": [512, 20, 512],
+          "Position": [0, -10, 0],
+          "Color": [0.388, 0.372, 0.384],
+          "Material": "Concrete",
+          "TopSurface": "Smooth",
+          "BottomSurface": "Smooth"
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "Size": [12, 1, 12],
+          "Position": [0, 0.5, 0],
+          "Neutral": true,
+          "Duration": 0
+        }
+      },
+      "Wall": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Size": [40, 16, 2],
+          "Position": [0, 8, -60],
+          "Material": "Brick",
+          "Color": [0.627, 0.373, 0.208]
+        }
+      },
+      "SteelPlate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Size": [12, 12, 1],
+          "Position": [30, 6, -40],
+          "Material": "DiamondPlate",
+          "Color": [0.639, 0.635, 0.647]
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Technology": "Future"
+      }
+    }
+  }
+}
