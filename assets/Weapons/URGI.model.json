@@ -1,0 +1,2408 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ManualActivationOnly": false,
+    "CanBeDropped": false,
+    "Enabled": true,
+    "RequiresHandle": true,
+    "ToolTip": "",
+    "TextureId": "",
+    "Grip": {
+      "CFrame": {
+        "orientation": [
+          [
+            -0.12186939269304276,
+            0,
+            0.9925461411476135
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.9925461411476135,
+            0,
+            -0.12186939269304276
+          ]
+        ],
+        "position": [
+          -0.1928054690361023,
+          -0.35653752088546753,
+          -0.014706584624946117
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "DisplayName": "URG-I SOCOM"
+  },
+  "children": [
+    {
+      "name": "Handle",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.9723020792007446,
+          0.5172061920166016,
+          0.20412197709083557
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://132876296489420",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": false,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.20392157137393951,
+          0.20392157137393951,
+          0.2078431397676468
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.6826171875,
+              46.400001525878906,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          3.7567660808563232,
+          0.9851546883583069,
+          0.38880378007888794
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_1"
+      },
+      "children": [
+        {
+          "name": "Fire",
+          "className": "Sound",
+          "properties": {
+            "PlaybackSpeed": 1,
+            "RollOffMaxDistance": 10000,
+            "Volume": 0.800000011920929,
+            "SoundId": "rbxassetid://6978704232",
+            "Looped": false,
+            "RollOffMode": "InverseTapered",
+            "RollOffMinDistance": 10
+          }
+        },
+        {
+          "name": "Reload",
+          "className": "Sound",
+          "properties": {
+            "PlaybackSpeed": 1,
+            "RollOffMaxDistance": 10000,
+            "Volume": 0.5,
+            "SoundId": "rbxassetid://6414222958",
+            "Looped": false,
+            "RollOffMode": "InverseTapered",
+            "RollOffMinDistance": 10
+          }
+        },
+        {
+          "name": "Muzzle",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -3.682594060897827,
+                  0.15881937742233276,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "AimPoint",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -0.21760711073875427,
+                  0.5761178135871887,
+                  -0.002706584520637989
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "ShootFirst",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -2.5801069736480713,
+                  0.5761178135871887,
+                  -0.002706584520637989
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "SupportGrip",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -2.31842041015625,
+                  -0.13610076904296875,
+                  0.0008010863675735891
+                ]
+              }
+            }
+          },
+          "attributes": {
+            "VerticalGrip": true
+          }
+        },
+        {
+          "name": "Ejection",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -0.730975329875946,
+                  0.1102595254778862,
+                  -0.1891557276248932
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_142",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.9559435844421387,
+          0.19510728120803833,
+          0.18465566635131836
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://74131776457483",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.20392157137393951,
+          0.20392157137393951,
+          0.2078431397676468
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              801.7511596679688,
+              46.571109771728516,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          3.725606918334961,
+          0.3716329336166382,
+          0.35172510147094727
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_2"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_2",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_15",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.9314004182815552,
+          0.15390975773334503,
+          0.08228307217359543
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://78276725902308",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              801.843017578125,
+              46.60169982910156,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          3.6788580417633057,
+          0.29316145181655884,
+          0.15672966837882996
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_3"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_3",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_232",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.7891552448272705,
+          0.3153543174266815,
+          0.20814166963100433
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://137048434647057",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.4941176474094391,
+          0.45098039507865906,
+          0.3137255012989044
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              801.8304443359375,
+              46.571861267089844,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          3.407914876937866,
+          0.6006749272346497,
+          0.3964603543281555
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_4"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_4",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_25",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.9806613922119141,
+          0.6963351964950562,
+          0.32136070728302
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://118101044083750",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.4941176474094391,
+          0.45098039507865906,
+          0.3137255012989044
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              804.4843139648438,
+              46.307796478271484,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          1.8679265975952148,
+          1.326352834701538,
+          0.6121156811714172
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_5"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_5",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_13",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.0859036445617676,
+          0.3079148232936859,
+          0.29166901111602783
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://135171347750628",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.20392157137393951,
+          0.20392157137393951,
+          0.2078431397676468
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.1760864257812,
+              46.57558059692383,
+              -0.05309600755572319
+            ]
+          }
+        },
+        "InitialSize": [
+          2.068387985229492,
+          0.5865044593811035,
+          0.5555600523948669
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_6"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_6",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Magazine",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.45820096135139465,
+          0.9906960129737854,
+          0.16960197687149048
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://102630416700968",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.20392157137393951,
+          0.20392157137393951,
+          0.2078431397676468
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              802.8865356445312,
+              46.04395294189453,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          0.8727637529373169,
+          1.887040138244629,
+          0.323051393032074
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_7"
+      },
+      "children": [
+        {
+          "name": "GunJoint",
+          "className": "Motor6D",
+          "properties": {
+            "C1": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "C0": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -0.79608154296875,
+                  -0.356048583984375,
+                  0
+                ]
+              }
+            },
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_7",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_262",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.8834142684936523,
+          0.36419764161109924,
+          0.2934781610965729
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://117703433970757",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              804.5082397460938,
+              46.359859466552734,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          1.6826939582824707,
+          0.6937098503112793,
+          0.5590060353279114
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_8"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_8",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_5",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.9621053338050842,
+          0.1791847050189972,
+          0.1258961409330368
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://114594238118149",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.32549020648002625,
+          0.32549020648002625,
+          0.3294117748737335
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.1826171875,
+              46.59772491455078,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          1.832581639289856,
+          0.341304212808609,
+          0.23980218172073364
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_9"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_9",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_3",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.9119192957878113,
+          0.08663991838693619,
+          0.33903467655181885
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://133112313036878",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.2478637695312,
+              46.67508316040039,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          1.7369892597198486,
+          0.1650284230709076,
+          0.6457803845405579
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_10"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_10",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_37",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.8524363040924072,
+          0.2078356146812439,
+          0.19370785355567932
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://126547492479411",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.5764706134796143,
+          0.529411792755127,
+          0.364705890417099
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              800.42626953125,
+              46.55882263183594,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          1.6236882209777832,
+          0.3958773910999298,
+          0.36896735429763794
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_11"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_11",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_9",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.47139453887939453,
+          0.5365513563156128,
+          0.16019396483898163
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://94244942072294",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.4941176474094391,
+          0.45098039507865906,
+          0.3137255012989044
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.6549682617188,
+              46.043460845947266,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          0.8978943824768066,
+          1.0220025777816772,
+          0.30513137578964233
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_12"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_12",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_27",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.07615002244710922,
+          0.7007091641426086,
+          0.18115073442459106
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://137011795906147",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              805.0126953125,
+              46.307796478271484,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          0.14504766464233398,
+          1.334684133529663,
+          0.34504902362823486
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_13"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_13",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bolt",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.5292441844940186,
+          0.11004038900136948,
+          0.06209273636341095
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://140152343652622",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              802.95166015625,
+              46.484012603759766,
+              -0.11040572822093964
+            ]
+          }
+        },
+        "InitialSize": [
+          1.0080841779708862,
+          0.20960074663162231,
+          0.11827188730239868
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_14"
+      },
+      "children": [
+        {
+          "name": "GunJoint",
+          "className": "Motor6D",
+          "properties": {
+            "C1": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            "C0": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -0.73095703125,
+                  0.08401107788085938,
+                  -0.11040572822093964
+                ]
+              }
+            },
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_14",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_392",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.22605106234550476,
+          0.44099992513656616,
+          0.14502792060375214
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://71079297821535",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.5764706134796143,
+          0.529411792755127,
+          0.364705890417099
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              801.3641967773438,
+              46.22862243652344,
+              0.0008010863675735891
+            ]
+          }
+        },
+        "InitialSize": [
+          0.4305734634399414,
+          0.8399999141693115,
+          0.276243656873703
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_15"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_15",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_29",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.3143070638179779,
+          0.11412486433982849,
+          0.25665077567100525
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://133790411645226",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                -4.371138828673793e-08,
+                -1,
+                0
+              ],
+              [
+                1,
+                -4.371138828673793e-08,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.297607421875,
+              46.84973907470703,
+              -0.02941589243710041
+            ]
+          }
+        },
+        "InitialSize": [
+          0.5986801385879517,
+          0.21738070249557495,
+          0.4888586401939392
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_16"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_16",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.26347124576568604,
+          0.27395734190940857,
+          0.12058844417333603
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://126004584338035",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.3441772460938,
+              46.31650924682617,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          0.5018500089645386,
+          0.521823525428772,
+          0.229692280292511
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_17"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_17",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_242",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.26090988516807556,
+          0.08774471282958984,
+          0.22399502992630005
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://138983176848568",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              802.5900268554688,
+              46.470760345458984,
+              -0.0015060424339026213
+            ]
+          }
+        },
+        "InitialSize": [
+          0.4969712495803833,
+          0.16713279485702515,
+          0.42665722966194153
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_18"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_18",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_282",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.27701103687286377,
+          0.09241199493408203,
+          0.19364631175994873
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://115430154656922",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                -4.371138828673793e-08,
+                -1,
+                0
+              ],
+              [
+                1,
+                -4.371138828673793e-08,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              800.9342041015625,
+              46.83461380004883,
+              0.003140258602797985
+            ]
+          }
+        },
+        "InitialSize": [
+          0.5276401042938232,
+          0.17602285742759705,
+          0.36885014176368713
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_19"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_19",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_302",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.3012402653694153,
+          0.1192721351981163,
+          0.1192721277475357
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://106821761464247",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              800.7002563476562,
+              46.56588363647461,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          0.5737910270690918,
+          0.22718502581119537,
+          0.22718501091003418
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_20"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_20",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_20",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.3134201765060425,
+          0.07975903898477554,
+          0.08616666495800018
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://83943973696719",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.26274511218070984,
+          0.26274511218070984,
+          0.2666666805744171
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              802.947998046875,
+              46.49479293823242,
+              0
+            ]
+          }
+        },
+        "InitialSize": [
+          0.5969908237457275,
+          0.15192198753356934,
+          0.16412699222564697
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_21"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_21",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_62",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.20398567616939545,
+          0.06988035887479782,
+          0.18479220569133759
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://107675604537741",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.0675659179688,
+              46.37757873535156,
+              -0.010221862234175205
+            ]
+          }
+        },
+        "InitialSize": [
+          0.3885441720485687,
+          0.13310545682907104,
+          0.3519851565361023
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_22"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_22",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_402",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.22465692460536957,
+          0.08059127628803253,
+          0.14621421694755554
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://132942585604333",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              801.3641967773438,
+              46.43555450439453,
+              0.001377868582494557
+            ]
+          }
+        },
+        "InitialSize": [
+          0.4279179573059082,
+          0.15350720286369324,
+          0.27850326895713806
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_23"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_23",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_42",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.05649054795503616,
+          0.15495307743549347,
+          0.1398940235376358
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://95147545310197",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.1334228515625,
+              46.481529235839844,
+              0.03390197455883026
+            ]
+          }
+        },
+        "InitialSize": [
+          0.10760104656219482,
+          0.29514873027801514,
+          0.26646482944488525
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_24"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_24",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.13792580366134644,
+          0.060785479843616486,
+          0.14768274128437042
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://104735747488747",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              803.49853515625,
+              46.39004898071289,
+              0.01009368896484375
+            ]
+          }
+        },
+        "InitialSize": [
+          0.26271581649780273,
+          0.11578187346458435,
+          0.28130048513412476
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_25"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_25",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_382",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.09877633303403854,
+          0.034230828285217285,
+          0.11193008720874786
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://131432538733736",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.16470588743686676,
+          0.16470588743686676,
+          0.16862745583057404
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              800.8031005859375,
+              46.47831344604492,
+              -0.0029479980003088713
+            ]
+          }
+        },
+        "InitialSize": [
+          0.18814539909362793,
+          0.06520158052444458,
+          0.213200181722641
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_26"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_26",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_82",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "SmoothPlastic",
+        "Size": [
+          0.09929739683866501,
+          0.07165522873401642,
+          0.04300537705421448
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://80441675799886",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": true,
+        "CanQuery": false,
+        "DoubleSided": true,
+        "Color": [
+          0.20392157137393951,
+          0.20392157137393951,
+          0.2078431397676468
+        ],
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              802.9725341796875,
+              46.50732421875,
+              -0.0967712327837944
+            ]
+          }
+        },
+        "InitialSize": [
+          0.18913790583610535,
+          0.13648615777492523,
+          0.0819150060415268
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "URGI_27"
+      },
+      "children": [
+        {
+          "name": "GunWeld",
+          "className": "WeldConstraint",
+          "properties": {
+            "Enabled": true
+          },
+          "attributes": {
+            "Rojo_Target_Part1": "URGI_27",
+            "Rojo_Target_Part0": "URGI_1"
+          }
+        }
+      ]
+    }
+  ]
+}

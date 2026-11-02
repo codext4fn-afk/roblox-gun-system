@@ -1,0 +1,312 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ManualActivationOnly": false,
+    "CanBeDropped": true,
+    "Enabled": true,
+    "RequiresHandle": true,
+    "ToolTip": "",
+    "TextureId": "",
+    "Grip": {
+      "CFrame": {
+        "orientation": [
+          [
+            -0.08715580403804779,
+            0,
+            0.9961947202682495
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.9961947202682495,
+            0,
+            -0.08715580403804779
+          ]
+        ],
+        "position": [
+          0.8000000715255737,
+          -0.3500000238418579,
+          0.054999999701976776
+        ]
+      }
+    }
+  },
+  "children": [
+    {
+      "name": "Handle",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "Plastic",
+        "Size": [
+          4.319583415985107,
+          1.3647040128707886,
+          0.43039655685424805
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://106491935155549",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": false,
+        "CanQuery": false,
+        "DoubleSided": false,
+        "Color": [
+          0.6392157077789307,
+          0.6352941393852234,
+          0.6470588445663452
+        ],
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                -2.4492934404725397e-16,
+                -1.9952027787030875e-23
+              ],
+              [
+                2.4492934404725397e-16,
+                1,
+                1.6292067073209182e-07
+              ],
+              [
+                -1.9952024631587254e-23,
+                -1.6292067073209182e-07,
+                1
+              ]
+            ],
+            "position": [
+              -66.87665557861328,
+              0.6823520064353943,
+              79.93768310546875
+            ]
+          }
+        },
+        "InitialSize": [
+          96.79999542236328,
+          30.582426071166992,
+          9.645000457763672
+        ]
+      },
+      "children": [
+        {
+          "name": "Fire",
+          "className": "Sound",
+          "properties": {
+            "PlaybackSpeed": 1,
+            "RollOffMaxDistance": 10000,
+            "Volume": 0.5,
+            "SoundId": "rbxassetid://110864225654545",
+            "Looped": false,
+            "RollOffMode": "InverseTapered",
+            "RollOffMinDistance": 10
+          }
+        },
+        {
+          "name": "Reload",
+          "className": "Sound",
+          "properties": {
+            "PlaybackSpeed": 1,
+            "RollOffMaxDistance": 10000,
+            "Volume": 0.5,
+            "SoundId": "rbxassetid://6414222958",
+            "Looped": false,
+            "RollOffMode": "InverseTapered",
+            "RollOffMinDistance": 10
+          }
+        },
+        {
+          "name": "SurfaceAppearance",
+          "className": "SurfaceAppearance",
+          "properties": {
+            "MetalnessMap": "rbxassetid://134322655303140",
+            "NormalMap": "rbxassetid://131208691417067",
+            "RoughnessMap": "rbxassetid://97099201863478",
+            "Color": [
+              1,
+              1,
+              1
+            ],
+            "AlphaMode": "Overlay",
+            "ColorMap": "rbxassetid://114686119226984"
+          }
+        },
+        {
+          "name": "Muzzle",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -2.1689682006835938,
+                  0.21764808893203735,
+                  0.05022430419921875
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "AimPoint",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  0.7699999809265137,
+                  0.671999990940094,
+                  0.054999999701976776
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "ShootFirst",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -0.9800000190734863,
+                  0.671999990940094,
+                  0.054999999701976776
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "SupportGrip",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -0.7200000286102295,
+                  0.05999999865889549,
+                  0.054999999701976776
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "MagazineWell",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  0.27000001072883606,
+                  -0.11999999731779099,
+                  0.054999999701976776
+                ]
+              }
+            }
+          },
+          "attributes": {
+            "MagazineLength": 0.62
+          }
+        }
+      ]
+    }
+  ]
+}

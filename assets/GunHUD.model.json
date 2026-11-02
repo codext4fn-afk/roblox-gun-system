@@ -1,0 +1,1249 @@
+{
+  "className": "ScreenGui",
+  "properties": {
+    "Enabled": false,
+    "ScreenInsets": "DeviceSafeInsets",
+    "ZIndexBehavior": "Global",
+    "ResetOnSpawn": false,
+    "IgnoreGuiInset": true,
+    "DisplayOrder": 0
+  },
+  "children": [
+    {
+      "name": "Vignette",
+      "className": "Frame",
+      "properties": {
+        "Visible": true,
+        "ClipsDescendants": false,
+        "LayoutOrder": 0,
+        "AnchorPoint": [
+          0,
+          0
+        ],
+        "Rotation": 0,
+        "BackgroundTransparency": 1,
+        "Position": {
+          "UDim2": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "Size": {
+          "UDim2": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "ZIndex": 1,
+        "BorderSizePixel": 0,
+        "BackgroundColor3": [
+          0.6392157077789307,
+          0.6352941393852234,
+          0.6470588445663452
+        ]
+      },
+      "children": [
+        {
+          "name": "Top",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0,
+              0
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 1,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  0.30000001192092896,
+                  0
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              0,
+              0,
+              0
+            ]
+          },
+          "children": [
+            {
+              "name": "UIGradient",
+              "className": "UIGradient",
+              "properties": {
+                "Rotation": 90,
+                "Transparency": {
+                  "NumberSequence": {
+                    "keypoints": [
+                      {
+                        "value": 0,
+                        "time": 0,
+                        "envelope": 0
+                      },
+                      {
+                        "value": 1,
+                        "time": 1,
+                        "envelope": 0
+                      }
+                    ]
+                  }
+                },
+                "Color": {
+                  "ColorSequence": {
+                    "keypoints": [
+                      {
+                        "time": 0,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "time": 1,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "Enabled": true,
+                "Offset": [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bottom",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0,
+              1
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 1,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  0.30000001192092896,
+                  0
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              0,
+              0,
+              0
+            ]
+          },
+          "children": [
+            {
+              "name": "UIGradient",
+              "className": "UIGradient",
+              "properties": {
+                "Rotation": -90,
+                "Transparency": {
+                  "NumberSequence": {
+                    "keypoints": [
+                      {
+                        "value": 0,
+                        "time": 0,
+                        "envelope": 0
+                      },
+                      {
+                        "value": 1,
+                        "time": 1,
+                        "envelope": 0
+                      }
+                    ]
+                  }
+                },
+                "Color": {
+                  "ColorSequence": {
+                    "keypoints": [
+                      {
+                        "time": 0,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "time": 1,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "Enabled": true,
+                "Offset": [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0,
+              0
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 1,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0.2199999988079071,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              0,
+              0,
+              0
+            ]
+          },
+          "children": [
+            {
+              "name": "UIGradient",
+              "className": "UIGradient",
+              "properties": {
+                "Rotation": 0,
+                "Transparency": {
+                  "NumberSequence": {
+                    "keypoints": [
+                      {
+                        "value": 0,
+                        "time": 0,
+                        "envelope": 0
+                      },
+                      {
+                        "value": 1,
+                        "time": 1,
+                        "envelope": 0
+                      }
+                    ]
+                  }
+                },
+                "Color": {
+                  "ColorSequence": {
+                    "keypoints": [
+                      {
+                        "time": 0,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "time": 1,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "Enabled": true,
+                "Offset": [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Right",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              1,
+              0
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 1,
+            "Position": {
+              "UDim2": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0.2199999988079071,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              0,
+              0,
+              0
+            ]
+          },
+          "children": [
+            {
+              "name": "UIGradient",
+              "className": "UIGradient",
+              "properties": {
+                "Rotation": 180,
+                "Transparency": {
+                  "NumberSequence": {
+                    "keypoints": [
+                      {
+                        "value": 0,
+                        "time": 0,
+                        "envelope": 0
+                      },
+                      {
+                        "value": 1,
+                        "time": 1,
+                        "envelope": 0
+                      }
+                    ]
+                  }
+                },
+                "Color": {
+                  "ColorSequence": {
+                    "keypoints": [
+                      {
+                        "time": 0,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "time": 1,
+                        "color": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "Enabled": true,
+                "Offset": [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crosshair",
+      "className": "Frame",
+      "properties": {
+        "Visible": true,
+        "ClipsDescendants": false,
+        "LayoutOrder": 0,
+        "AnchorPoint": [
+          0,
+          0
+        ],
+        "Rotation": 0,
+        "BackgroundTransparency": 1,
+        "Position": {
+          "UDim2": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "Size": {
+          "UDim2": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "ZIndex": 1,
+        "BorderSizePixel": 1,
+        "BackgroundColor3": [
+          0.6392157077789307,
+          0.6352941393852234,
+          0.6470588445663452
+        ]
+      },
+      "children": [
+        {
+          "name": "Dot",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 0,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "ApplyStrokeMode": "Contextual",
+                "Transparency": 0.4000000059604645,
+                "Color": [
+                  0,
+                  0,
+                  0
+                ],
+                "Enabled": true,
+                "LineJoinMode": "Round",
+                "Thickness": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Top",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 0,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  -6
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  11
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "ApplyStrokeMode": "Contextual",
+                "Transparency": 0.4000000059604645,
+                "Color": [
+                  0,
+                  0,
+                  0
+                ],
+                "Enabled": true,
+                "LineJoinMode": "Round",
+                "Thickness": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bottom",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 0,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  6
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  11
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "ApplyStrokeMode": "Contextual",
+                "Transparency": 0.4000000059604645,
+                "Color": [
+                  0,
+                  0,
+                  0
+                ],
+                "Enabled": true,
+                "LineJoinMode": "Round",
+                "Thickness": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 0,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  -6
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0,
+                  11
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "ApplyStrokeMode": "Contextual",
+                "Transparency": 0.4000000059604645,
+                "Color": [
+                  0,
+                  0,
+                  0
+                ],
+                "Enabled": true,
+                "LineJoinMode": "Round",
+                "Thickness": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Right",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 0,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0,
+                  11
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 0,
+            "BackgroundColor3": [
+              1,
+              1,
+              1
+            ]
+          },
+          "children": [
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "ApplyStrokeMode": "Contextual",
+                "Transparency": 0.4000000059604645,
+                "Color": [
+                  0,
+                  0,
+                  0
+                ],
+                "Enabled": true,
+                "LineJoinMode": "Round",
+                "Thickness": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Hitmarker",
+          "className": "Frame",
+          "properties": {
+            "Visible": true,
+            "ClipsDescendants": false,
+            "LayoutOrder": 0,
+            "AnchorPoint": [
+              0,
+              0
+            ],
+            "Rotation": 0,
+            "BackgroundTransparency": 1,
+            "Position": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Size": {
+              "UDim2": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "ZIndex": 1,
+            "BorderSizePixel": 1,
+            "BackgroundColor3": [
+              0.6392157077789307,
+              0.6352941393852234,
+              0.6470588445663452
+            ]
+          },
+          "children": [
+            {
+              "name": "TopLeft",
+              "className": "Frame",
+              "properties": {
+                "Visible": true,
+                "ClipsDescendants": false,
+                "LayoutOrder": 0,
+                "AnchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "Rotation": -45,
+                "BackgroundTransparency": 1,
+                "Position": {
+                  "UDim2": [
+                    [
+                      0,
+                      -9
+                    ],
+                    [
+                      0,
+                      -9
+                    ]
+                  ]
+                },
+                "Size": {
+                  "UDim2": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      0,
+                      8
+                    ]
+                  ]
+                },
+                "ZIndex": 1,
+                "BorderSizePixel": 0,
+                "BackgroundColor3": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "name": "BottomRight",
+              "className": "Frame",
+              "properties": {
+                "Visible": true,
+                "ClipsDescendants": false,
+                "LayoutOrder": 0,
+                "AnchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "Rotation": -45,
+                "BackgroundTransparency": 1,
+                "Position": {
+                  "UDim2": [
+                    [
+                      0,
+                      9
+                    ],
+                    [
+                      0,
+                      9
+                    ]
+                  ]
+                },
+                "Size": {
+                  "UDim2": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      0,
+                      8
+                    ]
+                  ]
+                },
+                "ZIndex": 1,
+                "BorderSizePixel": 0,
+                "BackgroundColor3": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "name": "TopRight",
+              "className": "Frame",
+              "properties": {
+                "Visible": true,
+                "ClipsDescendants": false,
+                "LayoutOrder": 0,
+                "AnchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "Rotation": 45,
+                "BackgroundTransparency": 1,
+                "Position": {
+                  "UDim2": [
+                    [
+                      0,
+                      9
+                    ],
+                    [
+                      0,
+                      -9
+                    ]
+                  ]
+                },
+                "Size": {
+                  "UDim2": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      0,
+                      8
+                    ]
+                  ]
+                },
+                "ZIndex": 1,
+                "BorderSizePixel": 0,
+                "BackgroundColor3": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "name": "BottomLeft",
+              "className": "Frame",
+              "properties": {
+                "Visible": true,
+                "ClipsDescendants": false,
+                "LayoutOrder": 0,
+                "AnchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "Rotation": 45,
+                "BackgroundTransparency": 1,
+                "Position": {
+                  "UDim2": [
+                    [
+                      0,
+                      -9
+                    ],
+                    [
+                      0,
+                      9
+                    ]
+                  ]
+                },
+                "Size": {
+                  "UDim2": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      0,
+                      8
+                    ]
+                  ]
+                },
+                "ZIndex": 1,
+                "BorderSizePixel": 0,
+                "BackgroundColor3": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WeaponName",
+      "className": "TextLabel",
+      "properties": {
+        "Visible": true,
+        "TextWrapped": false,
+        "TextStrokeColor3": [
+          0,
+          0,
+          0
+        ],
+        "TextStrokeTransparency": 1,
+        "AnchorPoint": [
+          1,
+          1
+        ],
+        "ZIndex": 1,
+        "TextSize": 20,
+        "Size": {
+          "UDim2": [
+            [
+              0,
+              260
+            ],
+            [
+              0,
+              24
+            ]
+          ]
+        },
+        "RichText": false,
+        "ClipsDescendants": false,
+        "TextColor3": [
+          1,
+          1,
+          1
+        ],
+        "LayoutOrder": 0,
+        "Text": "AK",
+        "BorderSizePixel": 1,
+        "Position": {
+          "UDim2": [
+            [
+              1,
+              -40
+            ],
+            [
+              1,
+              -80
+            ]
+          ]
+        },
+        "Rotation": 0,
+        "FontFace": {
+          "Font": {
+            "family": "rbxasset://fonts/families/GothamSSm.json",
+            "style": "Normal",
+            "weight": "Bold"
+          }
+        },
+        "BackgroundTransparency": 1,
+        "TextXAlignment": "Right",
+        "TextTransparency": 0,
+        "TextYAlignment": "Center",
+        "TextScaled": false,
+        "BackgroundColor3": [
+          0.6392157077789307,
+          0.6352941393852234,
+          0.6470588445663452
+        ]
+      },
+      "children": [
+        {
+          "name": "UIGradient",
+          "className": "UIGradient",
+          "properties": {
+            "Rotation": 90,
+            "Transparency": {
+              "NumberSequence": {
+                "keypoints": [
+                  {
+                    "value": 0,
+                    "time": 0,
+                    "envelope": 0
+                  },
+                  {
+                    "value": 0,
+                    "time": 1,
+                    "envelope": 0
+                  }
+                ]
+              }
+            },
+            "Color": {
+              "ColorSequence": {
+                "keypoints": [
+                  {
+                    "time": 0,
+                    "color": [
+                      0.7450980544090271,
+                      0.7450980544090271,
+                      0.7450980544090271
+                    ]
+                  },
+                  {
+                    "time": 1,
+                    "color": [
+                      0.11764705926179886,
+                      0.11764705926179886,
+                      0.11764705926179886
+                    ]
+                  }
+                ]
+              }
+            },
+            "Enabled": true,
+            "Offset": [
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ammo",
+      "className": "TextLabel",
+      "properties": {
+        "Visible": true,
+        "TextWrapped": false,
+        "TextStrokeColor3": [
+          0,
+          0,
+          0
+        ],
+        "TextStrokeTransparency": 0.6000000238418579,
+        "AnchorPoint": [
+          1,
+          1
+        ],
+        "ZIndex": 1,
+        "TextSize": 32,
+        "Size": {
+          "UDim2": [
+            [
+              0,
+              260
+            ],
+            [
+              0,
+              36
+            ]
+          ]
+        },
+        "RichText": false,
+        "ClipsDescendants": false,
+        "TextColor3": [
+          1,
+          1,
+          1
+        ],
+        "LayoutOrder": 0,
+        "Text": "30 / 30",
+        "BorderSizePixel": 1,
+        "Position": {
+          "UDim2": [
+            [
+              1,
+              -40
+            ],
+            [
+              1,
+              -40
+            ]
+          ]
+        },
+        "Rotation": 0,
+        "FontFace": {
+          "Font": {
+            "family": "rbxasset://fonts/families/GothamSSm.json",
+            "style": "Normal",
+            "weight": "Bold"
+          }
+        },
+        "BackgroundTransparency": 1,
+        "TextXAlignment": "Right",
+        "TextTransparency": 0,
+        "TextYAlignment": "Center",
+        "TextScaled": false,
+        "BackgroundColor3": [
+          0.6392157077789307,
+          0.6352941393852234,
+          0.6470588445663452
+        ]
+      }
+    }
+  ]
+}

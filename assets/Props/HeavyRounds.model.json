@@ -1,0 +1,51 @@
+{
+  "className": "Part",
+  "properties": {
+    "Reflectance": 0,
+    "CanCollide": true,
+    "Color": [
+      0.7098039388656616,
+      0.5686274766921997,
+      0.27450981736183167
+    ],
+    "CFrame": {
+      "CFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "CanTouch": true,
+    "Shape": "Block",
+    "Transparency": 0,
+    "Anchored": false,
+    "Massless": false,
+    "CanQuery": true,
+    "Material": "Metal",
+    "CastShadow": true,
+    "Size": [
+      0.35999998450279236,
+      0.14000000059604645,
+      0.14000000059604645
+    ]
+  }
+}

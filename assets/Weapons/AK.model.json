@@ -1,0 +1,762 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ManualActivationOnly": false,
+    "CanBeDropped": true,
+    "Enabled": true,
+    "RequiresHandle": true,
+    "ToolTip": "",
+    "TextureId": "",
+    "Grip": {
+      "CFrame": {
+        "orientation": [
+          [
+            -0.12186939269304276,
+            0,
+            0.9925461411476135
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.9925461411476135,
+            0,
+            -0.12186939269304276
+          ]
+        ],
+        "position": [
+          1.069599986076355,
+          -0.3988563120365143,
+          -0.05000000074505806
+        ]
+      }
+    }
+  },
+  "children": [
+    {
+      "name": "test",
+      "className": "Model",
+      "children": [
+        {
+          "name": "AK_Rifle",
+          "className": "Model",
+          "children": [
+            {
+              "name": "Body_Node",
+              "className": "Model"
+            },
+            {
+              "name": "ChargingHandle_Node",
+              "className": "Model",
+              "children": [
+                {
+                  "name": "ChargingHandle",
+                  "className": "MeshPart",
+                  "properties": {
+                    "Reflectance": 0,
+                    "TextureID": "",
+                    "Anchored": false,
+                    "RenderFidelity": "Automatic",
+                    "Material": "Metal",
+                    "Size": [
+                      0.059994131326675415,
+                      0.0599941648542881,
+                      0.13193479180335999
+                    ],
+                    "CanCollide": false,
+                    "MeshId": "rbxassetid://117265545595835",
+                    "CanTouch": false,
+                    "CollisionFidelity": "Default",
+                    "Transparency": 0,
+                    "Massless": true,
+                    "CanQuery": false,
+                    "DoubleSided": false,
+                    "Color": [
+                      0.6392157077789307,
+                      0.6352941393852234,
+                      0.6470588445663452
+                    ],
+                    "CastShadow": true,
+                    "CFrame": {
+                      "CFrame": {
+                        "orientation": [
+                          [
+                            1,
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            1,
+                            0
+                          ],
+                          [
+                            0,
+                            0,
+                            1
+                          ]
+                        ],
+                        "position": [
+                          -70.56813049316406,
+                          1.0462846755981445,
+                          83.7432632446289
+                        ]
+                      }
+                    },
+                    "InitialSize": [
+                      0.011140778660774231,
+                      0.011140784248709679,
+                      0.024500001221895218
+                    ]
+                  },
+                  "attributes": {
+                    "Rojo_Id": "AK_1"
+                  },
+                  "children": [
+                    {
+                      "name": "SurfaceAppearance",
+                      "className": "SurfaceAppearance",
+                      "properties": {
+                        "MetalnessMap": "rbxassetid://128942090249527",
+                        "NormalMap": "rbxassetid://74179998530144",
+                        "RoughnessMap": "rbxassetid://111982365389335",
+                        "Color": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "AlphaMode": "Overlay",
+                        "ColorMap": "rbxassetid://139020711130400"
+                      }
+                    },
+                    {
+                      "name": "GunJoint",
+                      "className": "Motor6D",
+                      "properties": {
+                        "C1": {
+                          "CFrame": {
+                            "orientation": [
+                              [
+                                1,
+                                0,
+                                0
+                              ],
+                              [
+                                0,
+                                1,
+                                0
+                              ],
+                              [
+                                0,
+                                0,
+                                1
+                              ]
+                            ],
+                            "position": [
+                              0,
+                              0,
+                              0
+                            ]
+                          }
+                        },
+                        "C0": {
+                          "CFrame": {
+                            "orientation": [
+                              [
+                                1,
+                                0,
+                                0
+                              ],
+                              [
+                                0,
+                                1,
+                                0
+                              ],
+                              [
+                                0,
+                                0,
+                                1
+                              ]
+                            ],
+                            "position": [
+                              0.13185882568359375,
+                              0.2616921663284302,
+                              0.15482330322265625
+                            ]
+                          }
+                        },
+                        "Enabled": true
+                      },
+                      "attributes": {
+                        "Rojo_Target_Part1": "AK_1",
+                        "Rojo_Target_Part0": "AK_2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Magazine_Node",
+              "className": "Model",
+              "children": [
+                {
+                  "name": "Magazine",
+                  "className": "MeshPart",
+                  "properties": {
+                    "Reflectance": 0,
+                    "TextureID": "",
+                    "Anchored": false,
+                    "RenderFidelity": "Automatic",
+                    "Material": "Metal",
+                    "Size": [
+                      0.6322821378707886,
+                      0.8291569948196411,
+                      0.16370688378810883
+                    ],
+                    "CanCollide": false,
+                    "MeshId": "rbxassetid://139798209149861",
+                    "CanTouch": false,
+                    "CollisionFidelity": "Default",
+                    "Transparency": 0,
+                    "Massless": true,
+                    "CanQuery": false,
+                    "DoubleSided": false,
+                    "Color": [
+                      0.6470588445663452,
+                      0,
+                      0
+                    ],
+                    "CastShadow": true,
+                    "CFrame": {
+                      "CFrame": {
+                        "orientation": [
+                          [
+                            1,
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            1,
+                            0
+                          ],
+                          [
+                            0,
+                            0,
+                            1
+                          ]
+                        ],
+                        "position": [
+                          -70.46612548828125,
+                          0.4145784378051758,
+                          83.58843994140625
+                        ]
+                      }
+                    },
+                    "InitialSize": [
+                      0.11741340160369873,
+                      0.15397262573242188,
+                      0.030400007963180542
+                    ]
+                  },
+                  "attributes": {
+                    "Rojo_Id": "AK_3"
+                  },
+                  "children": [
+                    {
+                      "name": "SurfaceAppearance",
+                      "className": "SurfaceAppearance",
+                      "properties": {
+                        "MetalnessMap": "rbxassetid://128942090249527",
+                        "NormalMap": "rbxassetid://74179998530144",
+                        "RoughnessMap": "rbxassetid://111982365389335",
+                        "Color": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "AlphaMode": "Overlay",
+                        "ColorMap": "rbxassetid://139020711130400"
+                      }
+                    },
+                    {
+                      "name": "GunJoint",
+                      "className": "Motor6D",
+                      "properties": {
+                        "C1": {
+                          "CFrame": {
+                            "orientation": [
+                              [
+                                1,
+                                0,
+                                0
+                              ],
+                              [
+                                0,
+                                1,
+                                0
+                              ],
+                              [
+                                0,
+                                0,
+                                1
+                              ]
+                            ],
+                            "position": [
+                              0,
+                              0,
+                              0
+                            ]
+                          }
+                        },
+                        "C0": {
+                          "CFrame": {
+                            "orientation": [
+                              [
+                                1,
+                                0,
+                                0
+                              ],
+                              [
+                                0,
+                                1,
+                                0
+                              ],
+                              [
+                                0,
+                                0,
+                                1
+                              ]
+                            ],
+                            "position": [
+                              0.23386383056640625,
+                              -0.3700140714645386,
+                              0
+                            ]
+                          }
+                        },
+                        "Enabled": true
+                      },
+                      "attributes": {
+                        "Rojo_Target_Part1": "AK_3",
+                        "Rojo_Target_Part0": "AK_2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Selector_Node",
+              "className": "Model",
+              "children": [
+                {
+                  "name": "Selector",
+                  "className": "MeshPart",
+                  "properties": {
+                    "Reflectance": 0,
+                    "TextureID": "",
+                    "Anchored": false,
+                    "RenderFidelity": "Automatic",
+                    "Material": "Plastic",
+                    "Size": [
+                      0.9827815294265747,
+                      0.08852411806583405,
+                      0.009693261235952377
+                    ],
+                    "CanCollide": false,
+                    "MeshId": "rbxassetid://74544322766784",
+                    "CanTouch": false,
+                    "CollisionFidelity": "Default",
+                    "Transparency": 0,
+                    "Massless": true,
+                    "CanQuery": false,
+                    "DoubleSided": false,
+                    "Color": [
+                      0.6392157077789307,
+                      0.6352941393852234,
+                      0.6470588445663452
+                    ],
+                    "CastShadow": true,
+                    "CFrame": {
+                      "CFrame": {
+                        "orientation": [
+                          [
+                            1,
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            1,
+                            0
+                          ],
+                          [
+                            0,
+                            0,
+                            1
+                          ]
+                        ],
+                        "position": [
+                          -69.95196533203125,
+                          0.95937180519104,
+                          83.68860626220703
+                        ]
+                      }
+                    },
+                    "InitialSize": [
+                      0.18250036239624023,
+                      0.016438733786344528,
+                      0.0018000174313783646
+                    ]
+                  },
+                  "attributes": {
+                    "Rojo_Id": "AK_4"
+                  },
+                  "children": [
+                    {
+                      "name": "SurfaceAppearance",
+                      "className": "SurfaceAppearance",
+                      "properties": {
+                        "MetalnessMap": "rbxassetid://128942090249527",
+                        "NormalMap": "rbxassetid://74179998530144",
+                        "RoughnessMap": "rbxassetid://111982365389335",
+                        "Color": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "AlphaMode": "Overlay",
+                        "ColorMap": "rbxassetid://139020711130400"
+                      }
+                    },
+                    {
+                      "name": "GunWeld",
+                      "className": "WeldConstraint",
+                      "properties": {
+                        "Enabled": true
+                      },
+                      "attributes": {
+                        "Rojo_Target_Part1": "AK_4",
+                        "Rojo_Target_Part0": "AK_2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Trigger_Node",
+              "className": "Model",
+              "children": [
+                {
+                  "name": "Trigger",
+                  "className": "MeshPart",
+                  "properties": {
+                    "Reflectance": 0,
+                    "TextureID": "",
+                    "Anchored": false,
+                    "RenderFidelity": "Automatic",
+                    "Material": "Plastic",
+                    "Size": [
+                      0.060661040246486664,
+                      0.1193438321352005,
+                      0.03015652671456337
+                    ],
+                    "CanCollide": false,
+                    "MeshId": "rbxassetid://95629532088093",
+                    "CanTouch": false,
+                    "CollisionFidelity": "Default",
+                    "Transparency": 0,
+                    "Massless": true,
+                    "CanQuery": false,
+                    "DoubleSided": false,
+                    "Color": [
+                      0.6392157077789307,
+                      0.6352941393852234,
+                      0.6470588445663452
+                    ],
+                    "CastShadow": true,
+                    "CFrame": {
+                      "CFrame": {
+                        "orientation": [
+                          [
+                            1,
+                            0,
+                            0
+                          ],
+                          [
+                            0,
+                            1,
+                            0
+                          ],
+                          [
+                            0,
+                            0,
+                            1
+                          ]
+                        ],
+                        "position": [
+                          -69.90474700927734,
+                          0.7345895767211914,
+                          83.58843994140625
+                        ]
+                      }
+                    },
+                    "InitialSize": [
+                      0.011264622211456299,
+                      0.02216188609600067,
+                      0.005600000731647015
+                    ]
+                  },
+                  "attributes": {
+                    "Rojo_Id": "AK_5"
+                  },
+                  "children": [
+                    {
+                      "name": "SurfaceAppearance",
+                      "className": "SurfaceAppearance",
+                      "properties": {
+                        "MetalnessMap": "rbxassetid://128942090249527",
+                        "NormalMap": "rbxassetid://74179998530144",
+                        "RoughnessMap": "rbxassetid://111982365389335",
+                        "Color": [
+                          1,
+                          1,
+                          1
+                        ],
+                        "AlphaMode": "Overlay",
+                        "ColorMap": "rbxassetid://139020711130400"
+                      }
+                    },
+                    {
+                      "name": "GunWeld",
+                      "className": "WeldConstraint",
+                      "properties": {
+                        "Enabled": true
+                      },
+                      "attributes": {
+                        "Rojo_Target_Part1": "AK_5",
+                        "Rojo_Target_Part0": "AK_2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Handle",
+      "className": "MeshPart",
+      "properties": {
+        "Reflectance": 0,
+        "TextureID": "",
+        "Anchored": false,
+        "RenderFidelity": "Automatic",
+        "Material": "Plastic",
+        "Size": [
+          4.800000190734863,
+          0.9421285390853882,
+          0.24986837804317474
+        ],
+        "CanCollide": false,
+        "MeshId": "rbxassetid://120296865922377",
+        "CanTouch": false,
+        "CollisionFidelity": "Default",
+        "Transparency": 0,
+        "Massless": false,
+        "CanQuery": false,
+        "DoubleSided": false,
+        "Color": [
+          0.6392157077789307,
+          0.6352941393852234,
+          0.6470588445663452
+        ],
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "position": [
+              -70.69998931884766,
+              0.7845925092697144,
+              83.58843994140625
+            ]
+          }
+        },
+        "InitialSize": [
+          0.8913494348526001,
+          0.1749511957168579,
+          0.046400006860494614
+        ]
+      },
+      "attributes": {
+        "Rojo_Id": "AK_2"
+      },
+      "children": [
+        {
+          "name": "Fire",
+          "className": "Sound",
+          "properties": {
+            "PlaybackSpeed": 1,
+            "RollOffMaxDistance": 10000,
+            "Volume": 0.5,
+            "SoundId": "rbxassetid://123111065763587",
+            "Looped": false,
+            "RollOffMode": "InverseTapered",
+            "RollOffMinDistance": 10
+          }
+        },
+        {
+          "name": "Reload",
+          "className": "Sound",
+          "properties": {
+            "PlaybackSpeed": 1,
+            "RollOffMaxDistance": 10000,
+            "Volume": 0.5,
+            "SoundId": "rbxassetid://6414222958",
+            "Looped": false,
+            "RollOffMode": "InverseTapered",
+            "RollOffMinDistance": 10
+          }
+        },
+        {
+          "name": "SurfaceAppearance",
+          "className": "SurfaceAppearance",
+          "properties": {
+            "MetalnessMap": "rbxassetid://128942090249527",
+            "NormalMap": "rbxassetid://74179998530144",
+            "RoughnessMap": "rbxassetid://111982365389335",
+            "Color": [
+              1,
+              1,
+              1
+            ],
+            "AlphaMode": "Overlay",
+            "ColorMap": "rbxassetid://139020711130400"
+          }
+        },
+        {
+          "name": "Muzzle",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -2.4000000953674316,
+                  0.16958314180374146,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "AimPoint",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -0.0442352294921875,
+                  0.4615575075149536,
+                  0.000946044921875
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "ShootFirst",
+          "className": "Attachment",
+          "properties": {
+            "Visible": false,
+            "CFrame": {
+              "CFrame": {
+                "orientation": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ],
+                "position": [
+                  -1.8600006103515625,
+                  0.3606078624725342,
+                  0
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

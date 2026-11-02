@@ -1,0 +1,60 @@
+{
+  "className": "MeshPart",
+  "properties": {
+    "Reflectance": 0,
+    "TextureID": "",
+    "Anchored": false,
+    "RenderFidelity": "Automatic",
+    "Material": "SmoothPlastic",
+    "Size": [
+      0.24921995401382446,
+      0.5371079444885254,
+      0.09478981792926788
+    ],
+    "CanCollide": false,
+    "MeshId": "rbxassetid://112937936986417",
+    "CanTouch": false,
+    "CollisionFidelity": "Default",
+    "Transparency": 0,
+    "Massless": true,
+    "CanQuery": false,
+    "DoubleSided": true,
+    "Color": [
+      0.20392157137393951,
+      0.20392157137393951,
+      0.2078431397676468
+    ],
+    "CastShadow": false,
+    "CFrame": {
+      "CFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          803.0931396484375,
+          44.390132904052734,
+          0.0036499022971838713
+        ]
+      }
+    },
+    "InitialSize": [
+      0.6543266773223877,
+      1.410176157951355,
+      0.24887055158615112
+    ]
+  }
+}
