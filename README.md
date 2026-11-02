@@ -211,6 +211,8 @@ For each weapon, rig and animation (`Hold`, `Aim`, `Fire`, `Reload`) the first m
 3. The shared id in `Settings.SharedAnimations.<Rig>.<Name>`.
 4. A shared draft at `WeaponSystem.AnimationDrafts.<Rig>.<Name>` (Studio only).
 
+> **Note:** R15 body animations are not included in this repository, because animation drafts are Studio-only assets and cannot ship as source. Arms are fully procedural (two-bone IK), so every weapon is held, aimed and reloaded without them. Adding published animations is a config-only change: paste the ids into a weapon's `Animations` table.
+
 Drafts only play inside Studio, so live servers need published ids. `WeaponEditor.WeaponAnimationBuilder.Build("<Id>")` generates per-weapon drafts from a weapon's geometry and config, ready to edit and publish. R15 arms are always solved by IK unless `ReloadUsesAnimation` is set, so R15 animations only need to carry the body.
 
 ## Setup
