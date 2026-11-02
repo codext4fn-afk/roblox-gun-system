@@ -1,5 +1,5 @@
 --!strict
--- Copyright (c) 2026 Douglas (Roblox: XXmello_iceXX). All rights reserved. Not licensed for reuse.
+-- Copyright (c) 2026 Fahd (Roblox: XXmello_iceXX). All rights reserved. Not licensed for reuse.
 
 local Recoil = {}
 Recoil.__index = Recoil

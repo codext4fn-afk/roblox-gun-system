@@ -310,6 +310,6 @@ Firing requires aiming in third person; in first person the weapon is always rea
 
 ---
 
-Copyright © 2026 Douglas (Roblox: [XXmello_iceXX](https://www.roblox.com/search/users?keyword=XXmello_iceXX)). All rights reserved.
+Copyright © 2026 Fahd (Roblox: [XXmello_iceXX](https://www.roblox.com/search/users?keyword=XXmello_iceXX)). All rights reserved.
 
 Shown for portfolio purposes. Not licensed for reuse.
