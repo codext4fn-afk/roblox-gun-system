@@ -310,4 +310,6 @@ Firing requires aiming in third person; in first person the weapon is always rea
 
 ---
 
+Copyright © 2026 Douglas. All rights reserved.
+
 Shown for portfolio purposes. Not licensed for reuse.
