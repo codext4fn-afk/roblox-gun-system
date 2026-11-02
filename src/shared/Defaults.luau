@@ -1,4 +1,5 @@
 --!strict
+-- Copyright (c) 2026 Douglas (Roblox: XXmello_iceXX). All rights reserved. Not licensed for reuse.
 local Types = require(script.Parent.Types)
 
 local Defaults: Types.WeaponConfig = {
