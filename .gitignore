@@ -1,0 +1,6 @@
+*.rbxl
+*.rbxlx
+*.rbxm
+sourcemap.json
+Packages/
+audit/
